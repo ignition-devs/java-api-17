@@ -1,0 +1,7 @@
+## 17.25.0b1 (2025-12-05)
+
+### Refactor
+
+- **java**: set class attribute constants (#1)
+
+## 17.25.0b0 (2025-12-05)
