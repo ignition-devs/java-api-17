@@ -4,8 +4,8 @@
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/java-api)](https://pypi.org/project/java-api/)
 [![PyPI - Version](https://img.shields.io/pypi/v/java-api)](https://pypi.org/project/java-api/)
 [![PyPI - Downloads](https://static.pepy.tech/badge/java-api)](https://pepy.tech/projects/java-api)
-[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/ignition-devs/java-api-17/main.svg)](https://results.pre-commit.ci/latest/github/ignition-devs/java-api-17/main)
-[![ci](https://github.com/ignition-devs/java-api-17/actions/workflows/ci.yml/badge.svg)](https://github.com/ignition-devs/java-api-17/actions/workflows/ci.yml)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/ignition-devs/java-api/main.svg)](https://results.pre-commit.ci/latest/github/ignition-devs/java-api/main)
+[![ci](https://github.com/ignition-devs/java-api/actions/workflows/ci.yml/badge.svg)](https://github.com/ignition-devs/java-api/actions/workflows/ci.yml)
 [![Join us on GitHub discussions](https://img.shields.io/badge/github-discussions-informational)](https://github.com/orgs/ignition-devs/discussions)
 
 java-api is a Python package that allows developers to get code completion
@@ -108,10 +108,10 @@ See the [LICENSE].
 This project has adopted the [Microsoft Open Source Code of Conduct].
 
 <!-- Links -->
-[CONTRIBUTING.md]: https://github.com/ignition-devs/java-api-17/blob/main/CONTRIBUTING.md#contributing-to-java-api
-[CONTRIBUTORS]: https://github.com/ignition-devs/java-api-17/graphs/contributors
+[CONTRIBUTING.md]: https://github.com/ignition-devs/java-api/blob/main/CONTRIBUTING.md#contributing-to-java-api
+[CONTRIBUTORS]: https://github.com/ignition-devs/java-api/graphs/contributors
 [Discussions]: https://github.com/orgs/ignition-devs/discussions
 [`java-api-stubs`]: https://pypi.org/project/java-api-stubs/
-[LICENSE]: https://github.com/ignition-devs/java-api-17/blob/main/LICENSE
+[LICENSE]: https://github.com/ignition-devs/java-api/blob/main/LICENSE
 [Microsoft Open Source Code of Conduct]: https://opensource.microsoft.com/codeofconduct/
 [Python 2.7.18]: https://www.python.org/downloads/release/python-2718/

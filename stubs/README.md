@@ -60,10 +60,10 @@ See [CODE_OF_CONDUCT.md].
 
 <!-- Links -->
 [CODE_OF_CONDUCT.md]: https://github.com/ignition-devs/.github/blob/main/CODE_OF_CONDUCT.md
-[CONTRIBUTING.md]: https://github.com/ignition-devs/java-api-17/blob/main/CONTRIBUTING.md
-[contributors]: https://github.com/ignition-devs/java-api-17/graphs/contributors
+[CONTRIBUTING.md]: https://github.com/ignition-devs/java-api/blob/main/CONTRIBUTING.md
+[contributors]: https://github.com/ignition-devs/java-api/graphs/contributors
 [Discussions]: https://github.com/orgs/ignition-devs/discussions
-[`java-api`]: https://github.com/ignition-devs/java-api-17
-[LICENSE]: https://github.com/ignition-devs/java-api-17/blob/main/LICENSE
+[`java-api`]: https://github.com/ignition-devs/java-api
+[LICENSE]: https://github.com/ignition-devs/java-api/blob/main/LICENSE
 [`stubgen`]: https://coatl-mypy.readthedocs.io/en/v0.971/stubgen.html
 [stubs]: https://www.python.org/dev/peps/pep-484/
