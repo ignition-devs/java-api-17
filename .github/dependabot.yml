@@ -4,8 +4,8 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "quarterly"
     labels: ["dependencies"]
     commit-message:
       prefix: "ci"
-      include: scope
+      include: "scope"

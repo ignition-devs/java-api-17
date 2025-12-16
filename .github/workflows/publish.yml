@@ -6,26 +6,18 @@ on:
       - published
 
 jobs:
-  ci:
-    uses: ./.github/workflows/ci.yml
-
-  pr-build:
-    needs: ci
-    uses: ./.github/workflows/pr-build.yml
-
   pypi-upload:
-    needs: pr-build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
         uses: actions/checkout@v6
 
-      - name: Upload java-api to PyPI
+      - name: Upload package to PyPI
         uses: coatl-dev/actions/pypi-upload@v5
         with:
           password: ${{ secrets.PYPI_API_TOKEN_JAVA_API_PKG }}
 
-      - name: Upload java-api-stubs to PyPI
+      - name: Upload stubs to PyPI
         uses: coatl-dev/actions/pypi-upload@v5
         with:
           python-version: '3.12'

@@ -29,14 +29,14 @@ repos:
     rev: 7.0.0
     hooks:
       - id: isort
-        name: isort-java-api
+        name: isort-package
         files: ^src/
         args: [--settings-file, tox.ini]
   - repo: https://github.com/PyCQA/isort
     rev: 7.0.0
     hooks:
       - id: isort
-        name: isort-java-api-stubs
+        name: isort-stubs
         files: ^stubs/stubs/
         args: [--settings-file, stubs/tox.ini]
   - repo: https://github.com/PyCQA/docformatter
@@ -50,7 +50,7 @@ repos:
     rev: 5.0.4
     hooks:
       - id: flake8
-        name: flake8-java-api
+        name: flake8-package
         files: ^src/
         args: [--config, tox.ini]
         additional_dependencies: [pydoclint]
@@ -59,7 +59,7 @@ repos:
     rev: 7.3.0
     hooks:
       - id: flake8
-        name: flake8-java-api-stubs
+        name: flake8-stubs
         types: [file]
         files: \.(pyi)$
         additional_dependencies: [flake8-pyi]
